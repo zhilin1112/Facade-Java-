@@ -16,5 +16,6 @@ public class ShapeClient {
         //objC.draw();
         
         FacadeDraw f = new FacadeDraw();
+        f.drawSquare();
     }
 }

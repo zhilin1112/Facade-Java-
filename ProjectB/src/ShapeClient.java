@@ -15,7 +15,14 @@ public class ShapeClient {
         //Circle objC = new Circle();
         //objC.draw();
         
-        FacadeDraw f = new FacadeDraw();
-        f.drawSquare();
+        //FacadeDraw f = new FacadeDraw();
+        //f.drawSquare();
+
+        //Singleton --> Only one object 
+        FacadeDraw fds = FacadeDraw.getInstance();
+
+        fds.drawCircle();
+        fds.drawRectangle();
+        fds.drawSquare();
     }
 }
